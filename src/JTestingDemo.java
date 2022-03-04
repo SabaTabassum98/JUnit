@@ -1,5 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class JTestingDemo {
@@ -7,6 +6,20 @@ class JTestingDemo {
 	@Test
 	void test() {
 		System.out.println("Not yet implemented");
+		System.out.println("------------------------------------");
 	}
-
+	
+	@Test
+	
+	void display1() {
+		   System.out.println("implemented");
+		 
+		   System.out.println("------------------------------------");
+	   }
+	@Test
+	void display2() {
+		   System.out.println("disabled");
+		     
+		   System.out.println("------------------------------------");
+	   }
 }
