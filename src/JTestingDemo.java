@@ -16,6 +16,7 @@ class JTestingDemo {
 		 
 		   System.out.println("------------------------------------");
 	   }
+	@Disabled
 	@Test
 	void display2() {
 		   System.out.println("disabled");
