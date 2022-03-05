@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-//->consumer interface 
 class A implements Consumer<Integer>{
 	 public void accept(Integer i) {
 		  System.out.println(i);
@@ -23,7 +22,7 @@ public class NewStreamAPIdemo {
     //->lamda expression
 	values.forEach(i-> System.out.println(i));
 	
-	//anonymous method
+	//->anonymous method
 		/*for(int i : values) {
 				values.forEach(new Consumer<Integer>(){
 			public void accept(Integer i) {
