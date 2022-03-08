@@ -23,14 +23,21 @@ public class NewStreamAPIdemo {
 	values.forEach(i-> System.out.println(i));
 	
 	//->anonymous method
+	
 		/*for(int i : values) {
 				values.forEach(new Consumer<Integer>(){
 			public void accept(Integer i) {
 				System.out.println(i);
 			}
 		});
-    }*/
+    }
 		Consumer<Integer> c = new  A();
-		values.forEach(c); 
+		values.forEach(c); */
+	values.forEach(NewStreamAPIdemo::doubleIt);
+	}
+
+       public static void doubleIt(int i) {
+	    System.out.println(i*2);
+
 }
 }
